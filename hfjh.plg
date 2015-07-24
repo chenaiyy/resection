@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hfjh - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/hfjh.res" /d "_DEBUG" /d "_AFXDLL" "E:\袁野\数据\本科学习\摄影测量与遥感\后方交会-编程框架\hfjh.rc"" 
+Creating temporary file "C:\Users\ADMINI~1.CHE\AppData\Local\Temp\RSPC97F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/hfjh.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\袁野\数据\本科学习\摄影测量与遥感\后方交会-编程框架\hfjh.cpp"
+"E:\袁野\数据\本科学习\摄影测量与遥感\后方交会-编程框架\hfjhDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1.CHE\AppData\Local\Temp\RSPC97F.tmp" 
+Creating temporary file "C:\Users\ADMINI~1.CHE\AppData\Local\Temp\RSPC980.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/hfjh.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\袁野\数据\本科学习\摄影测量与遥感\后方交会-编程框架\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1.CHE\AppData\Local\Temp\RSPC980.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/hfjh.pdb" /debug /machine:I386 /out:"Debug/hfjh.exe" /pdbtype:sept  ".\Debug\hfjh.obj" ".\Debug\hfjhDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\hfjh.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+hfjh.cpp
+hfjhDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+hfjh.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

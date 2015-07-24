@@ -1,0 +1,278 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\hfjh.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\hfjh.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 hfjh"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "hfjh 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2005",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_HFJH_DIALOG DIALOGEX 0, 0, 505, 303
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "空间后方交汇计算"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,431,181,50,14
+    PUSHBUTTON      "取消",IDCANCEL,431,215,50,14
+    LTEXT           "x1",IDC_STATIC,20,46,8,13
+    LTEXT           "y3",IDC_STATIC,87,94,8,13
+    LTEXT           "y1",IDC_STATIC,87,46,8,13
+    LTEXT           "y2",IDC_STATIC,87,69,8,13
+    LTEXT           "y4",IDC_STATIC,87,121,8,13
+    LTEXT           "x2",IDC_STATIC,20,69,8,13
+    LTEXT           "x3",IDC_STATIC,20,94,8,13
+    LTEXT           "x4",IDC_STATIC,20,121,8,13
+    LTEXT           "X1",IDC_STATIC,177,48,8,12
+    LTEXT           "Z4",IDC_STATIC,326,118,8,12
+    LTEXT           "Z2",IDC_STATIC,326,73,8,12
+    LTEXT           "Z3",IDC_STATIC,326,95,8,12
+    LTEXT           "Z1",IDC_STATIC,326,48,8,12
+    LTEXT           "Y1",IDC_STATIC,253,48,8,12
+    LTEXT           "Y4",IDC_STATIC,253,118,8,12
+    LTEXT           "Y3",IDC_STATIC,253,95,8,12
+    LTEXT           "Y2",IDC_STATIC,253,73,8,12
+    LTEXT           "X2",IDC_STATIC,177,73,8,12
+    LTEXT           "X3",IDC_STATIC,177,95,8,12
+    LTEXT           "X4",IDC_STATIC,177,118,8,12
+    GROUPBOX        "像点坐标(mm)",IDC_STATIC,7,30,155,112
+    GROUPBOX        "地面点坐标(m)",IDC_STATIC,169,30,232,112
+    EDITTEXT        IDC_x1,33,46,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_x2,33,69,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_x3,33,94,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_x4,33,121,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_y1,100,46,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_y2,100,69,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_y3,100,94,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_xx1,193,48,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_y4,100,121,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_xx2,193,73,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_xx3,193,95,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_xx4,193,118,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_yy1,266,48,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_yy2,266,73,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_yy3,266,95,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_yy4,266,118,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_zz1,344,48,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_zz2,344,73,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_zz3,344,95,52,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_zz4,344,118,52,13,ES_AUTOHSCROLL
+    LTEXT           "比例尺",IDC_STATIC,413,51,27,8
+    LTEXT           "1:",IDC_STATIC,441,51,8,8
+    EDITTEXT        IDC_m,451,49,34,12,ES_AUTOHSCROLL
+    LTEXT           "焦距",IDC_STATIC,413,91,18,12
+    EDITTEXT        IDC_f,434,89,42,13,ES_AUTOHSCROLL
+    LTEXT           "mm",IDC_STATIC,479,91,12,9
+    GROUPBOX        "外方位元素",IDC_STATIC,215,164,204,89
+    LTEXT           "Xs",IDC_STATIC,227,179,18,13
+    LTEXT           "Ys",IDC_STATIC,227,204,18,13
+    LTEXT           "Zs",IDC_STATIC,227,229,18,13
+    LTEXT           "kappa",IDC_STATIC,319,229,26,13
+    LTEXT           "omega",IDC_STATIC,319,204,23,13
+    LTEXT           "phi",IDC_STATIC,319,179,18,13
+    EDITTEXT        IDC_Xs,247,179,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Ys,247,204,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Zs,247,229,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_kappa,351,229,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_omega,351,204,60,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_phi,351,179,60,15,ES_AUTOHSCROLL
+    GROUPBOX        "R阵",IDC_STATIC,7,156,202,102
+    EDITTEXT        IDC_R1,15,169,55,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_R4,15,198,55,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_R7,15,229,55,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_R2,79,169,55,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_R5,79,198,55,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_R3,143,169,55,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_R6,143,198,55,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_R8,79,229,55,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_R9,143,229,55,18,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "hfjh Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "hfjh\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "hfjh.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "hfjh 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_HFJH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 498
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 296
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 hfjh(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\hfjh.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
